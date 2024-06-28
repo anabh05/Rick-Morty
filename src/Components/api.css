@@ -24,18 +24,18 @@ html {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     width: 100%;
 }
 
 .character {
     display: flex;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
     position: relative;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* background-color: rgb(181, 232, 86); */
-        background-color: rgb(213, 136, 235);
+    background-color: rgb(213, 136, 235);
     color: blueviolet;
     height: 400px;
     align-content: center;
@@ -53,12 +53,12 @@ html {
 }
 
 .character-name {
- border-top-left-radius: 20px;
+ border-top-left-radius: 15px;
  position: relative;
- padding: 20px;
+ padding: 15px;
  background-color: aquamarine;
  cursor: pointer;
- transform: translateY(-47%);
+ transform: translateY(-12%);
  transition: transform 0.3s;
  width: 100%;
     
@@ -67,7 +67,7 @@ html {
 .character-name:hover {
     font-size: 20px;
     font-weight: 600;
-    /* Tamaño de fuente al hacer hover */
+    transform: translate(0px, -20px);
 }
 
 .character-name:hover::before {
@@ -76,7 +76,7 @@ html {
     position: absolute;
     padding: 20px;
     cursor: pointer;
-    /* transform: translateY(237%); */
+    transform: translateY(-47%);
     transition: transform 0.3s;
     width: 100%;
 }
